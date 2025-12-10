@@ -6,9 +6,9 @@ body{
 
 }
 .container {
-    max-width: 1128px;
+    max-width: 1158px;
     margin: 0 auto;
-    padding: 0 16px;
+    padding: 0 15px;
 }
 
 /* Reset styles */
@@ -55,7 +55,16 @@ img {
 }
 
 /* Секція Навігації*/
+.header{
+    border-bottom: 1px solid #e7e9fc;
+        width: 100%;
+}
 .header-wraper{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0;
+}
+.nav{
     display: flex;
 }
 .logo{
@@ -68,18 +77,25 @@ img {
     text-transform: uppercase;
     color: #4D5AE5;
 }
-.logo-header{
+.logo-header{margin-right: 76px;}
+.logo-header-text{
 color: #2E2F42;
 }
 
-
+.nav-list{
+    display: flex;
+    gap: 40px;
+}
 .nav-list-item{
 font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    pad: 24 0;
+   
 }
+
 .nav-list-item:hover,
     :focus{
     color:#404BBF;
@@ -87,14 +103,21 @@ font-weight: 500;
 
 
 .adress-header{
+    
     font-style: normal;
 }
+.contacts{
+display: flex;
+gap: 40px;
+}
+
 .contacts-item{
     font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        
 }
 .contacts-item:hover,
     :focus {
@@ -102,8 +125,12 @@ font-weight: 500;
 }
 /* Секція Лого(Hero)*/
 .hero {
-    padding: 188, 0;
+display: flex;
     background-color: #2E2F42;
+}
+.hero-wrap{
+    text-align: center;
+    padding: 188px 0;
 }
 .hero-title {
     font-weight: 700;
@@ -112,28 +139,45 @@ font-weight: 500;
     letter-spacing: 0.02em;
     text-align: center;
     color: #FFFFFF;
+    max-width: 496px;
+    margin-bottom: 48px;
 }
 .hero-btn{
     cursor: pointer;
     background: #4D5AE5;
     font-family: "Roboto",  sans-serif;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
+    border-radius: 4px;
+        padding: 16px 32px;
+        width: 169px;
+        height: 56px;
 }
 .hero-btn:hover, :focus{
     background-color: #404BBF;
 }
 
 /* Секція Проекти*/
+.section{
+    padding-bottom: 120px;
+    padding-top: 120px;
+    }
+.feature-list{
+    display: flex;
+    gap: 24px;
+}
 .feature-list-title{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    }
+    .feature-list-title{
+        margin-bottom: 8px;
     }
 .feature-list-text{
     font-weight: 400;
@@ -156,11 +200,27 @@ font-weight: 500;
     text-align: center;
     text-transform: capitalize;
     color: #2E2F42;
+    margin-bottom: 72px;
 
 }
+.team-list{
+    display: flex;
+    gap: 24px;
 
+}
 .team-card{
         background: #FFFFFF;
+        border-radius: 0 0 4px 4px;
+        padding: 0px 0px 32px;
+        width: 264px;
+        box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+.team-card-img{
+    margin-bottom: 32px;
+}
+.team-card-wraper{
+    /* padding: 32px 16px; */
+
 }
 .team-card-title{
     font-weight: 500;
@@ -182,13 +242,25 @@ font-weight: 500;
 
 
 /*Секція портфоліо*/
-.portfolio-card{
-    border-left: 1px solid #E7E9FC;
-    border-right: 1px solid #E7E9FC;
-    
-     
+.portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+        row-gap: 48px;
+        column-gap: 24px;
+        padding: 0;
+        margin: 0;
+}
+
+.portfolio-card-wraper{
+    padding: 32px 16px;
+    border-bottom: 1px solid #e7e9fc;
+    border-left: 1px solid #e7e9fc;
+    border-right: 1px solid #e7e9fc;
+
     
 }
+
 .portfolio-card-title{
     font-weight: 500;
         font-size: 20px;
@@ -216,6 +288,7 @@ font-weight: 500;
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: #F4F4FD;
+    margin-bottom: 16px;
 }
 .footer-text{
     font-weight: 400;
@@ -223,4 +296,5 @@ font-weight: 500;
      line-height: 1.5;
     letter-spacing: 0.02em;
     color:#F4F4FD;
+    max-width: 264px;
 }
