@@ -1,0 +1,182 @@
+/* Скидання по тегам*/
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: #FFFFFF;
+    color: #434455;
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Секція Навігації*/
+.logo{
+    font-family: "Raleway",
+        sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+.logo-header{
+color: #2E2F42;
+}
+
+
+.nav-list-item{
+font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.nav-list-item:hover,
+    :focus{
+    color:#404BBF;
+}
+
+
+.adress-header{
+    font-style: normal;
+}
+.contacts-item{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+.contacts-item:hover,
+    :focus {
+    color: #404BBF;
+}
+/* Секція Лого(Hero)*/
+.hero {
+    background-color: #2E2F42;
+}
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #FFFFFF;
+}
+.hero-btn{
+    cursor: pointer;
+    background: #4D5AE5;
+    font-family: "Roboto",  sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+.hero-btn:hover, :focus{
+    background-color: #404BBF;
+}
+
+/* Секція Проекти*/
+.feature-list-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    }
+.feature-list-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+
+/*Секція Команда*/
+.team{
+    background-color:#F4F4FD ;
+}
+.section-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2E2F42;
+
+}
+
+.team-card{
+        background: #FFFFFF;
+}
+.team-card-title{
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2E2F42;
+}
+
+.team-card-text{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #434455;
+}
+
+
+/*Секція портфоліо*/
+.portfolio-card{
+    border-left: 1px solid #E7E9FC;
+    border-right: 1px solid #E7E9FC;
+    
+     
+    
+}
+.portfolio-card-title{
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+.portfolio-card-text{
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+
+/* футер */
+.footer{
+    background-color: #2E2F42;
+}
+.logo-footer{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #F4F4FD;
+}
+.footer-text{
+    font-weight: 400;
+    font-size: 16px;
+     line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#F4F4FD;
+}
