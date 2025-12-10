@@ -5,16 +5,59 @@ body{
     color: #434455;
 
 }
+.container {
+    max-width: 1128px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
 
-ul{
+/* Reset styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
     list-style-type: none;
 }
 
-a{
+a {
+    color: currentColor;
     text-decoration: none;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 /* Секція Навігації*/
+.header-wraper{
+    display: flex;
+}
 .logo{
     font-family: "Raleway",
         sans-serif;
@@ -59,6 +102,7 @@ font-weight: 500;
 }
 /* Секція Лого(Hero)*/
 .hero {
+    padding: 188, 0;
     background-color: #2E2F42;
 }
 .hero-title {
