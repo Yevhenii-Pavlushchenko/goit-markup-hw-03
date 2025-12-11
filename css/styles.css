@@ -69,6 +69,7 @@ img {
     align-items: center;
 }
 .logo{
+    display: inline-block;
     font-family: "Raleway",
         sans-serif;
     font-weight: 700;
@@ -77,6 +78,9 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+}
+.footer .logo{
+    margin-bottom: 16px;
 }
 .logo-header{margin-right: 76px;}
 .logo-header-text{
@@ -131,7 +135,7 @@ display: flex;
 }
 .hero-wrap{
     text-align: center;
-    padding: 188px 0;
+    padding: 188px 0 188px;
 }
 .hero-title {
     font-weight: 700;
@@ -144,6 +148,7 @@ display: flex;
     margin-bottom: 48px;
 }
 .hero-btn{
+    display: block;
     cursor: pointer;
     background: #4D5AE5;
     font-family: "Roboto",  sans-serif;
@@ -152,10 +157,12 @@ display: flex;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
+    border:none;
     border-radius: 4px;
         padding: 16px 32px;
         width: 169px;
         height: 56px;
+        margin: auto;
 }
 .hero-btn:hover, :focus{
     background-color: #404BBF;
@@ -170,15 +177,16 @@ display: flex;
     display: flex;
     gap: 24px;
 }
+.feature-list-item{
+    width: calc((100% - 72px) / 4);
+}
 .feature-list-title{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    }
-    .feature-list-title{
-        margin-bottom: 8px;
+    margin-bottom: 8px;
     }
 .feature-list-text{
     font-weight: 400;
@@ -212,15 +220,15 @@ display: flex;
 .team-card{
         background: #FFFFFF;
         border-radius: 0 0 4px 4px;
-        padding: 0px 0px 32px;
+        /* padding: 0px 0px 32px; */
         width: 264px;
         box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .team-card-img{
-    margin-bottom: 32px;
+    /* margin-bottom: 32px; */
 }
 .team-card-wraper{
-    /* padding: 32px 16px; */
+    padding: 32px 0;
 
 }
 .team-card-title{
@@ -230,6 +238,7 @@ display: flex;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2E2F42;
+        margin-bottom: 8px;
 }
 
 .team-card-text{
@@ -268,6 +277,7 @@ display: flex;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2E2F42;
+        margin-bottom: 8px;
 }
 .portfolio-card-text{
     font-weight: 400;
@@ -281,6 +291,7 @@ display: flex;
 /* футер */
 .footer{
     background-color: #2E2F42;
+    padding: 100px 0;
 }
 .logo-footer{
     font-family: "Raleway", sans-serif;
