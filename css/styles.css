@@ -8,7 +8,7 @@ body{
 .container {
     max-width: 1158px;
     margin: 0 auto;
-    padding: 0 15px 0 15px;
+    padding: 0 15px;
 }
 
 /* Reset styles */
@@ -97,7 +97,7 @@ font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    pad: 24px 0;
+    padding: 24px 0;
    
 }
 
@@ -135,7 +135,7 @@ display: flex;
 }
 .hero-wrap{
     text-align: center;
-    padding: 188px 0 188px;
+    padding: 188px 0;
 }
 .hero-title {
     font-weight: 700;
@@ -160,7 +160,7 @@ display: flex;
     border:none;
     border-radius: 4px;
         padding: 16px 32px;
-        width: 169px;
+        min-width: 169px;
         height: 56px;
         margin: auto;
 }
