@@ -88,7 +88,9 @@ img {
 .footer .logo{
     margin-bottom: 16px;
 }
-.logo-header{margin-right: 76px;}
+.logo-header{
+    margin-right: 76px;
+}
 .logo-header-text{
 color: #2E2F42;
 }
