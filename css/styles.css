@@ -8,8 +8,7 @@ body{
 .container {
     max-width: 1158px;
     margin: 0 auto;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding: 0 15px;
 }
 
 /* Reset styles */
