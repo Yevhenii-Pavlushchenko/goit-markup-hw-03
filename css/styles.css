@@ -65,9 +65,10 @@ img {
 }
 .header-wraper{
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    padding-bottom: 24px;
-    padding-top: 24px;
+    /* padding-bottom: 24px; */
+    /* padding-top: 24px; */
 }
 .nav{
     display: flex;
@@ -97,7 +98,8 @@ color: #2E2F42;
     gap: 40px;
 }
 .nav-list-item{
-font-weight: 500;
+    display: inline-block;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
